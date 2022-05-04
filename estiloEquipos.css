@@ -1,0 +1,69 @@
+/*Especificidad: 001*/
+body {
+  font-family: Tahoma, sans-serif;
+  color: black;
+  background-color: #fff;
+  display: grid;
+  grid-template-columns:[x0] 2fr [x1] 1fr;
+  grid-template-rows: [y0] 3em [y1] 1fr [y2] 3em;
+  }
+
+ 
+  /*Especificidad: 001*/
+  header {
+    background:#00438c;
+    color:whitesmoke;
+    grid-column: x0 / x2;
+  }
+
+  
+  /*Especificidad: 001*/
+  nav{
+    background:#00438c;
+    color:whitesmoke;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    padding: 1em;
+  }
+
+  
+  /*Especificidad: 001*/
+  a{
+    background:#00438c;
+    color:whitesmoke;
+    text-align: center;
+  }
+
+  
+  /*Especificidad: 001*/
+  main {
+    grid-column: x0;
+  }
+
+  
+  /*Especificidad: 001*/
+  footer {
+    background:#00438c;
+    color:whitesmoke;
+    padding: 1em;
+    text-align: center;
+    grid-column: x0 / x2;
+  }
+
+  
+  /*Especificidad: 001*/
+  aside {
+    grid-column: x1;
+    text-align: center;
+    padding-top: 20em;
+  }
+
+/*Especificidad: 001*/
+h1 {
+  color: #fff;    
+  background-color:#dc1d35; 
+  text-transform: uppercase;
+  padding: 2em; 
+  text-align: center;    
+  }

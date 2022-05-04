@@ -1,0 +1,67 @@
+/*Especificidad: 001*/
+body {
+  font-family: Tahoma, sans-serif;
+  color: black;
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: [y0] 3em [y1] 1fr [y2] 3em;
+  }
+
+ /*Especificidad: 001*/
+  nav{
+    background:#00438c;
+    color:whitesmoke;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    padding: 1em;
+  }
+
+  /*Especificidad: 001*/
+  a{
+    background:#00438c;
+    color:whitesmoke;
+    text-align: center;
+  }
+
+
+  /*Especificidad: 001*/
+  label {
+    padding: 1em;
+    font-size: 1.5em;
+  }
+
+  
+  /*Especificidad: 001*/
+  li{
+    padding-top: 1em;
+  }
+
+  
+  /*Especificidad: 001*/
+  footer {
+    background:#00438c;
+    color:whitesmoke;
+    padding: 1em;
+    text-align: center;
+    grid-row: y2;
+  }
+
+/*Especificidad: 001*/
+h1 {
+  color: white;  
+  background-color:#dc1d35; 
+  text-transform: uppercase;
+  padding: 2em; 
+  text-align: center;    
+  }
+
+  
+  /*Especificidad: 001*/
+  table , th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 1em;
+  }
