@@ -1,0 +1,16 @@
+<!ELEMENT NBA (conferencia,conferencia)>
+<!ELEMENT conferencia (division,division,division)>
+<!ELEMENT division (equipo,equipo,equipo,equipo,equipo)>
+<!ELEMENT equipo (pabellon,fechaCreacion,ciudad,coordenadas,numeroCampeonatos,logo)>
+<!ELEMENT pabellon (#PCDATA)>
+<!ELEMENT fechaCreacion (#PCDATA)>
+<!ELEMENT ciudad (#PCDATA)>
+<!ELEMENT coordenadas (latitud,longitud,altitud)>
+<!ELEMENT latitud (#PCDATA)>
+<!ELEMENT longitud (#PCDATA)>
+<!ELEMENT altitud (#PCDATA)>
+<!ELEMENT numeroCampeonatos (#PCDATA)>
+<!ELEMENT logo (#PCDATA)>
+<!ATTLIST conferencia nombreConferencia CDATA #REQUIRED>
+<!ATTLIST division nombreDivision CDATA #REQUIRED>
+<!ATTLIST equipo nombreEquipo CDATA #REQUIRED>

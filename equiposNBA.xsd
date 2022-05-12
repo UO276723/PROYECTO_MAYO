@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<xs:schema xmlns="http://tempuri.org/equiposNBA" elementFormDefault="qualified" targetNamespace="http://tempuri.org/equiposNBA" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="NBA">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="conferencia" />
+        <xs:element ref="conferencia" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="conferencia">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="division" />
+        <xs:element ref="division" />
+        <xs:element ref="division" />
+      </xs:sequence>
+      <xs:attribute name="nombreConferencia" type="xs:string" use="required" />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="division">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="equipo" />
+        <xs:element ref="equipo" />
+        <xs:element ref="equipo" />
+        <xs:element ref="equipo" />
+        <xs:element ref="equipo" />
+      </xs:sequence>
+      <xs:attribute name="nombreDivision" type="xs:string" use="required" />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="equipo">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="pabellon" />
+        <xs:element ref="fechaCreacion" />
+        <xs:element ref="ciudad" />
+        <xs:element ref="coordenadas" />
+        <xs:element ref="numeroCampeonatos" />
+        <xs:element ref="logo" />
+      </xs:sequence>
+      <xs:attribute name="nombreEquipo" type="xs:string" use="required" />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="pabellon" type="xs:string" />
+  <xs:element name="fechaCreacion" type="xs:integer" />
+  <xs:element name="ciudad" type="xs:string" />
+  <xs:element name="coordenadas">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="latitud" />
+        <xs:element ref="longitud" />
+        <xs:element ref="altitud" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="latitud" type="xs:decimal" />
+  <xs:element name="longitud" type="xs:decimal" />
+  <xs:element name="altitud" type="xs:decimal" />
+  <xs:element name="numeroCampeonatos" type="xs:integer" />
+  <xs:element name="logo" type="xs:string" />
+</xs:schema>

@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--<!DOCTYPE NBA SYSTEM "equiposNBA.dtd">-->
+<!--<NBA>-->
+<NBA xmlns="http://tempuri.org/equiposNBA" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://tempuri.org/equiposNBA equiposNBA.xsd">
+	<conferencia nombreConferencia="0este"> 
+		<division nombreDivision="Noroeste">
+			<equipo nombreEquipo="Denver Nuggets">
+				<pabellon>Ball Arena</pabellon>
+				<fechaCreacion>1967</fechaCreacion>
+				<ciudad>Denver</ciudad>
+				<coordenadas>
+					<latitud>39.7486565</latitud>
+					<longitud>-105.0076028</longitud>
+					<altitud>1603.84043556</altitud>
+				</coordenadas>
+				<numeroCampeonatos>0</numeroCampeonatos>
+				<logo>multimedia/images/denverNuggets.png</logo>
+			</equipo>
+			<equipo nombreEquipo="Minnesota Timberwolves">
+				<pabellon>Target Center</pabellon>
+				<fechaCreacion>1989</fechaCreacion>
+				<ciudad>Minnesota</ciudad>
+				<coordenadas>
+					<latitud>44.9794633</latitud>
+					<longitud>-93.2760947</longitud>
+					<altitud>280.93737049</altitud>
+				</coordenadas>
+				<numeroCampeonatos>0</numeroCampeonatos>
+				<logo>multimedia/images/minnesotaTimberwolves.png</logo>
+			</equipo>
+			<equipo nombreEquipo="Oklahoma City Thunder">
+				<pabellon>Paycom Center</pabellon>
+				<fechaCreacion>1967</fechaCreacion>
+				<ciudad>Oklahoma</ciudad>
+				<coordenadas>
+					<latitud>35.4634247</latitud>
+					<longitud>-97.5151138</longitud>
+					<altitud>383.74972426</altitud>
+				</coordenadas>
+				<numeroCampeonatos>1</numeroCampeonatos>
+				<logo>multimedia/images/okcthunder.png</logo>
+			</equipo>
+			<equipo nombreEquipo="Portland Trail Blazers">
+				<pabellon>Moda Center</pabellon>
+				<fechaCreacion>1970</fechaCreacion>
+				<ciudad>Portland</ciudad>
+				<coordenadas>
+					<latitud>45.53116542</latitud>
+					<longitud>-122.66762957</longitud>
+					<altitud>856.68820249</altitud>
+				</coordenadas>
+				<numeroCampeonatos>1</numeroCampeonatos>
+				<logo>multimedia/images/portlandTrailBlazers.png</logo>
+			</equipo>
+			<equipo nombreEquipo="Utah Jazz">
+				<pabellon>Vivint Arena</pabellon>
+				<fechaCreacion>1974</fechaCreacion>
+				<ciudad>Utah</ciudad>
+				<coordenadas>
+					<latitud>40.7682681</latitud>
+					<longitud>-111.9010874</longitud>
+					<altitud>1320.03379558</altitud>
+				</coordenadas>
+				<numeroCampeonatos>0</numeroCampeonatos>
+				<logo>multimedia/images/utahJazz.png</logo>
+			</equipo>
+		</division>
+		<division nombreDivision="Pacifico">
+			<equipo nombreEquipo="Golden State Warriors">
+				<pabellon>Chase Center</pabellon>
+				<fechaCreacion>1946</fechaCreacion>
+				<ciudad>San Francisco</ciudad>
+				<coordenadas>
+					<latitud>37.7680466</latitud>
+					<longitud>-122.387715</longitud>
+					<altitud>25.38754419</altitud>
+				</coordenadas>
+				<numeroCampeonatos>5</numeroCampeonatos>
+				<logo>multimedia/images/goldenStateWarriors.png</logo>
+			</equipo>
+			<equipo nombreEquipo="Loa Angeles Clippers">
+				<pabellon>Intuit Dome</pabellon>
+				<fechaCreacion>1970</fechaCreacion>
+				<ciudad>Los Angeles</ciudad>
+				<coordenadas>
+					<latitud>33.94548666</latitud>
+					<longitud>-118.34449182</longitud>
+					<altitud>23.6697029</altitud>
+				</coordenadas>
+				<numeroCampeonatos>0</numeroCampeonatos>
+				<logo>multimedia/imeages/losAngelesClippers.png</logo>
+			</equipo>
+			<equipo nombreEquipo="Los Angeles Lakers">
+				<pabellon>Crypto.com Arena</pabellon>
+				<fechaCreacion>1947</fechaCreacion>
+				<ciudad>Los Angeles Lakers</ciudad>
+				<coordenadas>
+					<latitud>34.0430175</latitud>
+					<longitud>-118.2672541</longitud>
+					<altitud>94.86832629</altitud>
+				</coordenadas>
+				<numeroCampeonatos>17</numeroCampeonatos>
+				<logo>multimedia/imeages/losAngelesLakers</logo>
+			</equipo>
+			<equipo nombreEquipo="Phoenix Suns">
+				<pabellon>Footprint Center</pabellon>
+				<fechaCreacion>1968</fechaCreacion>
+				<ciudad>Phoenix</ciudad>
+				<coordenadas>
+					<latitud>33.445737</latitud>
+					<longitud>-112.0712003</longitud>
+					<altitud>349.42473621</altitud>
+				</coordenadas>
+				<numeroCampeonatos>0</numeroCampeonatos>
+				<logo>multimedia/imeages/phoenixSuns.png</logo>
+			</equipo>
+			<equipo nombreEquipo="Sacramento Kings">
+				<pabellon>Golden 1 Center</pabellon>
+				<fechaCreacion>1923</fechaCreacion>
+				<ciudad>Sacramento</ciudad>
+				<coordenadas>
+					<latitud>38.5802045</latitud>
+					<longitud>-121.4996602</longitud>
+					<altitud>25.18164744</altitud>
+				</coordenadas>
+				<numeroCampeonatos>1</numeroCampeonatos>
+				<logo>multimedia/imeages/sacramentoKings.png</logo>
+			</equipo>
+		</division>
+		<division nombreDivision="Suroeste">
+			<equipo nombreEquipo="Dallas Mavericks">
+				<pabellon>American Airlines Center</pabellon>
+				<fechaCreacion>1980</fechaCreacion>
+				<ciudad>Dallas</ciudad>
+				<coordenadas>
+					<latitud>32.7903908</latitud>
+					<longitud>-96.8102547</longitud>
+					<altitud>151.41780756</altitud>
+				</coordenadas>
+				<numeroCampeonatos>1</numeroCampeonatos>
+				<logo>multimedia/imeages/dallasMavericks.png</logo>
+			</equipo>
+			<equipo nombreEquipo="Houston Rockets">
+				<pabellon>Toyota Center</pabellon>
+				<fechaCreacion>1967</fechaCreacion>
+				<ciudad>Houston</ciudad>
+				<coordenadas>
+					<latitud>29.7507604</latitud>
+					<longitud>-95.3621005</longitud>
+					<altitud>36.96612249</altitud>
+				</coordenadas>
+				<numeroCampeonatos>2</numeroCampeonatos>
+				<logo>multimedia/imeages/houstonRockets.png</logo>
+			</equipo>
+			<equipo nombreEquipo="Memphis Grizzlies">
+				<pabellon>FedEx Forum</pabellon>
+				<fechaCreacion>1995</fechaCreacion>
+				<ciudad>Memphis</ciudad>
+				<coordenadas>
+					<latitud>35.1381418</latitud>
+					<longitud>-90.0505864</longitud>
+					<altitud>99.92656554</altitud>
+				</coordenadas>
+				<numeroCampeonatos>0</numeroCampeonatos>
+				<logo>multimedia/imeages/memphisGrizzlies.png</logo>
+			</equipo>
+			<equipo nombreEquipo="New Orleans Pelicans">
+				<pabellon>New Orleans Arena</pabellon>
+				<fechaCreacion>2002</fechaCreacion>
+				<ciudad>New Orleans</ciudad>
+				<coordenadas>
+					<latitud>29.9490351</latitud>
+					<longitud>-90.0820568</longitud>
+					<altitud>28.49351686</altitud>
+				</coordenadas>
+				<numeroCampeonatos>0</numeroCampeonatos>
+				<logo>multimedia/imeages/newOrleansPelicans.png</logo>
+			</equipo>
+			<equipo nombreEquipo="San Antonio Spurs">
+				<pabellon>ATT Center</pabellon>
+				<fechaCreacion>1967</fechaCreacion>
+				<ciudad>San Antonio</ciudad>
+				<coordenadas>
+					<latitud>29.4270201</latitud>
+					<longitud>-98.4374652</longitud>
+					<altitud>214.45694154</altitud>
+				</coordenadas>
+				<numeroCampeonatos>5</numeroCampeonatos>
+				<logo>multimedia/imeages/sanAntonioSpurs.png</logo>
+			</equipo>
+		</division>
+	</conferencia>
+	
+	<conferencia nombreConferencia="Este">
+		<division nombreDivision="Atlantico">
+			<equipo nombreEquipo="Boston Celtics">
+				<pabellon>TD Garden</pabellon>
+				<fechaCreacion>1946</fechaCreacion>
+				<ciudad>Boston</ciudad>
+				<coordenadas>
+					<latitud>42.366198</latitud>
+					<longitud>-71.062146</longitud>
+					<altitud>30.49624609</altitud>
+				</coordenadas>
+				<numeroCampeonatos>17</numeroCampeonatos>
+				<logo>multimedia/imeages/bostonCeltics.png</logo>
+			</equipo>
+			<equipo nombreEquipo="Brooklyn Nets">
+				<pabellon>Barclays Center</pabellon>
+				<fechaCreacion>1967</fechaCreacion>
+				<ciudad>New York</ciudad>
+				<coordenadas>
+					<latitud>40.6826465</latitud>
+					<longitud>-73.9754156</longitud>
+					<altitud>35.93527704</altitud>
+				</coordenadas>
+				<numeroCampeonatos>0</numeroCampeonatos>
+				<logo>multimedia/imeages/brooklynNets.png</logo>
+			</equipo>
+			<equipo nombreEquipo="New York Knicks">
+				<pabellon>Madison Square Garden</pabellon>
+				<fechaCreacion>1946</fechaCreacion>
+				<ciudad>New York</ciudad>
+				<coordenadas>
+					<latitud>40.7505045</latitud>
+					<longitud>-73.9934387</longitud>
+					<altitud>32.54146136</altitud>
+				</coordenadas>
+				<numeroCampeonatos>2</numeroCampeonatos>
+				<logo>multimedia/imeages/newYorkKnicks.png</logo>
+			</equipo>
+			<equipo nombreEquipo="Philadelphia 76ers">
+				<pabellon>Wells Fargo Center</pabellon>
+				<fechaCreacion>1967</fechaCreacion>
+				<ciudad>Philadelphia</ciudad>
+				<coordenadas>
+					<latitud>39.9012015</latitud>
+					<longitud>-75.1719795</longitud>
+					<altitud>27.44785267</altitud>
+				</coordenadas>
+				<numeroCampeonatos>3</numeroCampeonatos>
+				<logo>multimedia/imeages/philadelphia76ers.png</logo>
+			</equipo>
+			<equipo nombreEquipo="Toronto Raptors">
+				<pabellon>Air Canada Centre</pabellon>
+				<fechaCreacion>1995</fechaCreacion>
+				<ciudad>Toronto</ciudad>
+				<coordenadas>
+					<latitud>43.6434661</latitud>
+					<longitud>-79.3790989</longitud>
+					<altitud>88.76262041</altitud>
+				</coordenadas>
+				<numeroCampeonatos>1</numeroCampeonatos>
+				<logo>multimedia/imeages/torontoRaptors.png</logo>
+			</equipo>
+		</division>
+		<division nombreDivision="Central">
+			<equipo nombreEquipo="Chicago Bulls">
+				<pabellon>United Center</pabellon>
+				<fechaCreacion>1966</fechaCreacion>
+				<ciudad>Chicago</ciudad>
+				<coordenadas>
+					<latitud>41.8806908</latitud>
+					<longitud>-87.6741759</longitud>
+					<altitud>203.63595354</altitud>
+				</coordenadas>
+				<numeroCampeonatos>6</numeroCampeonatos>
+				<logo>multimedia/imeages/chicagoBulls.png</logo>
+			</equipo>
+			<equipo nombreEquipo="Cleveland Cavaliers">
+				<pabellon>Rocket Mortgage FieldHouse</pabellon>
+				<fechaCreacion>1970</fechaCreacion>
+				<ciudad>Cleveland</ciudad>
+				<coordenadas>
+					<latitud>41.4965474</latitud>
+					<longitud>-81.6880574</longitud>
+					<altitud>226.79256932</altitud>
+				</coordenadas>
+				<numeroCampeonatos>1</numeroCampeonatos>
+				<logo>multimedia/imeages/clevelandCavaliers.png</logo>
+			</equipo>
+			<equipo nombreEquipo="Detroit Pistons">
+				<pabellon>Little Caesars Arena</pabellon>
+				<fechaCreacion>1949</fechaCreacion>
+				<ciudad>Detroit</ciudad>
+				<coordenadas>
+					<latitud>42.3411026</latitud>
+					<longitud>-83.0552673</longitud>
+					<altitud>202.59723646</altitud>
+				</coordenadas>
+				<numeroCampeonatos>3</numeroCampeonatos>
+				<logo>multimedia/imeages/detroitPistons.png</logo>
+			</equipo>
+			<equipo nombreEquipo="Indiana Pacers">
+				<pabellon>Gainbridge FieldHouse</pabellon>
+				<fechaCreacion>1967</fechaCreacion>
+				<ciudad>Indiana</ciudad>
+				<coordenadas>
+					<latitud>39.7640434</latitud>
+					<longitud>-86.1555367</longitud>
+					<altitud>237.17773244</altitud>
+				</coordenadas>
+				<numeroCampeonatos>0</numeroCampeonatos>
+				<logo>multimedia/imeages/indianaPacers.png</logo>
+			</equipo>
+			<equipo nombreEquipo="Milwaukee Bucks">
+				<pabellon>Fiserv Forum</pabellon>
+				<fechaCreacion>1968</fechaCreacion>
+				<ciudad>Milwaukee</ciudad>
+				<coordenadas>
+					<latitud>43.0450802</latitud>
+					<longitud>-87.9173862</longitud>
+					<altitud>200.486222</altitud>
+				</coordenadas>
+				<numeroCampeonatos>2</numeroCampeonatos>
+				<logo>multimedia/imeages/milwaukeeBucks.png</logo>
+			</equipo>
+		</division>
+		<division nombreDivision="Sureste">
+			<equipo nombreEquipo="Atlanta Haws">
+				<pabellon>State Farm Arena</pabellon>
+				<fechaCreacion>1946</fechaCreacion>
+				<ciudad>Atlanta</ciudad>
+				<coordenadas>
+					<latitud>33.7572891</latitud>
+					<longitud>-84.3963244</longitud>
+					<altitud>341.23823217</altitud>
+				</coordenadas>
+				<numeroCampeonatos>1</numeroCampeonatos>
+				<logo>multimedia/imeages/atlantaHaws.png</logo>
+			</equipo>
+			<equipo nombreEquipo="Charlotte Hornets">
+				<pabellon>Spectrum Center</pabellon>
+				<fechaCreacion>1988</fechaCreacion>
+				<ciudad>Charlotte</ciudad>
+				<coordenadas>
+					<latitud>35.2251855</latitud>
+					<longitud>-80.8393358</longitud>
+					<altitud>245.37450795</altitud>
+				</coordenadas>
+				<numeroCampeonatos>0</numeroCampeonatos>
+				<logo>multimedia/imeages/charlotteHornets.png</logo>
+			</equipo>
+			<equipo nombreEquipo="Miami Heat">
+				<pabellon>FTX Arena</pabellon>
+				<fechaCreacion>1988</fechaCreacion>
+				<ciudad>Miami</ciudad>
+				<coordenadas>
+					<latitud>25.7814014</latitud>
+					<longitud>-80.186969</longitud>
+					<altitud>14.01635183</altitud>
+				</coordenadas>
+				<numeroCampeonatos>3</numeroCampeonatos>
+				<logo>multimedia/imeages/miamiHeat.png</logo>
+			</equipo>
+			<equipo nombreEquipo="Orlando Magic">
+				<pabellon>Amway Center</pabellon>
+				<fechaCreacion>1989</fechaCreacion>
+				<ciudad>Orlando</ciudad>
+				<coordenadas>
+					<latitud>28.5392214</latitud>
+					<longitud>-81.3838535</longitud>
+					<altitud>56.83628464</altitud>
+				</coordenadas>
+				<numeroCampeonatos>0</numeroCampeonatos>
+				<logo>multimedia/imeages/orlandoMagic.png</logo>
+			</equipo>
+			<equipo nombreEquipo="Washington Wizards">
+				<pabellon>Capital One Arena</pabellon>
+				<fechaCreacion>1961</fechaCreacion>
+				<ciudad>Washington DC</ciudad>
+				<coordenadas>
+					<latitud>38.8981675</latitud>
+					<longitud>-77.0208568</longitud>
+					<altitud>14.02890809</altitud>
+				</coordenadas>
+				<numeroCampeonatos>1</numeroCampeonatos>
+				<logo>multimedia/imeages/washingtonWizars.png</logo>
+			</equipo>
+		</division>
+	</conferencia>
+</NBA>

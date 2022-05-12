@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>NBA</title>
+
+    <meta name="keywords" content="NBA, equipos NBA">
+    <meta name="author" content="Javier García González">
+    <meta name="description" content="equipos de la NBA">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="equiposNBA.js"></script>
+    <link rel="stylesheet" type="text/css" href="estilo.css" />
+</head>
+
+<body>
+
+    <header>    
+        <nav>
+            <a href="index.html" accesskey="i" tabindex=1>Inicio</a>
+            <a href="top10jugadores.html" accesskey="t" tabindex=2>Top 10 Jugadores</a>
+            <a href="equiposCampeones.html" accesskey="e" tabindex=3>Equipos Campeones</a>
+        </nav>    
+    </header>
+
+    <!-- Datos con el contenidos que aparece en el navegador -->
+    <main>
+        <article>
+        <h1>Equipos de la NBA</h1>
+        <section>
+            <h2>Qué es la NBA</h2>
+            <button onclick=" equiposNBA.verEquipos()">Cargar los equipos</button>
+            </section>
+        </article>
+    </main>
+    <footer>Autor: Javier Garcia Gonzalez</footer>
+</body>
+</html>
