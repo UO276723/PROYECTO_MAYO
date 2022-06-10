@@ -4,15 +4,18 @@
 <head>
     <!-- Datos que describen el documento -->
     <meta charset="UTF-8" />
-    <title>Equipos NBA</title>
+    <title>Mi localizacion</title>
 
-    <meta name="keywords" content="NBA, equipos NBA">
+    <meta name="keywords" content="NBA, localizacion">
     <meta name="author" content="Javier García González">
-    <meta name="description" content="equipos de la NBA">
+    <meta name="description" content="Muestra mi localizacion con respecto a algunos equipos de la NBA">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-    <script src="equiposNBA.js"></script>
+
     <link rel="stylesheet" type="text/css" href="estilo.css" />
+
+    <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v2.6.0/mapbox-gl.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="generadorMapa.js"></script>
 </head>
 
 <body>
@@ -33,10 +36,10 @@
     <!-- Datos con el contenidos que aparece en el navegador -->
     <main>
         <article>
-        <h1>Equipos de la NBA</h1>
+        <h1>Mi localizacion actual</h1>
         <section>
-            <h2>Archivo XML con los equipos</h2>
-            <button onclick=" equiposNBA.verEquipos()">Cargar los equipos</button>
+            <h2>Mi localizacion con respecto a otros equipos de la NBA</h2>
+            <input type="button" value="Obtener mi posicion" onclick="localizacion.cargarDatos();">
             </section>
         </article>
     </main>

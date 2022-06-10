@@ -13,17 +13,33 @@ class EquiposNBA {
             url: "equiposNBA.xml",
             method: 'GET',
             success: function(datos){            
-                var stringDatos = "CARGADO CORRECTAMENTE";
+                var stringDatos = "";
                 
                 //Extraccion de datos contenidos en el XML
                 $(datos).find("conferencia").each(function () {
-                    var nombreConferencia = $('conferencia',this).attr("nombreConferencia");
-                    datos += "<h2>Conferencia " + nombreConferencia + "</h2>";
+                    var nombreConferencia = $(this).attr("nombreConferencia");
+                    stringDatos += "<h2>Conferencia " + nombreConferencia + "</h2>";
                     $(this).find("division").each(function () {
-                        var nombreDivision = $('division', this).attr("nombreDivision");
-                        datos += "<h3>Division " + nombreDivision + "</h3>";
+                        var nombreDivision = $( this).attr("nombreDivision");
+                        stringDatos += "<h3>Division " + nombreDivision + "</h3>";
                         $(this).find("equipo").each(function () {
-                            var nombreEquipo = $('equipo', this).attr("nombreEquipo");
+                            var nombreEquipo = $(this).attr("nombreEquipo");
+                            var pabellon = $(this).find('pabellon').text();
+                            var fechaCreacion = $(this).find('fechaCreacion').text();
+                            var ciudad = $(this).find('ciudad').text();
+                            var latitud = $(this).find('coordenadas').find('latitud').text();
+                            var longitud = $(this).find('coordenadas').find('longitud').text();
+                            var altitud = $(this).find('coordenadas').find('altitud').text();
+                            var numeroCampeonatos = $(this).find('numeroCampeonatos').text();
+                            var logo = $(this).find('logo').text();
+
+                            stringDatos += "<h4>" + nombreEquipo +"</h4>";
+                            stringDatos += "<p>Pabellon: " + pabellon + "</p>";
+                            stringDatos += "<p>Fecha de creacion: " + fechaCreacion + "</p>";
+                            stringDatos += "<p>Ciudad: " + ciudad + "</p>";
+                            stringDatos += "<p>Coordenadas (latitud, longitud, altitud): " + latitud +", " + longitud + ", " + altitud + "</p>";
+                            stringDatos += "<p>Numero de campeonatos: " + numeroCampeonatos + "</p>";
+                            stringDatos += "<img src ='" + logo + "' alt=' logo de " + nombreEquipo + "' />";
                         })
                     })
                 });
@@ -43,18 +59,14 @@ class EquiposNBA {
     crearElemento(tipoElemento, texto, insertarAntesDe){
         var elemento = document.createElement(tipoElemento);
         elemento.innerHTML = texto;
-        $(insertarAntesDe).before(elemento);
+        $(insertarAntesDe).after(elemento);
     }
 
     verEquipos(){
-        //Muestra el archivo JSON recibido
-        this.crearElemento("h2","Archivo XML","footer"); 
-        this.crearElemento("h3",this.correcto,"footer"); // Crea un elemento con DOM 
-        this.crearElemento("h4","XML","footer"); // Crea un elemento con DOM        
-        this.crearElemento("h5","","footer"); // Crea un elemento con DOM para el string con XML
-        this.crearElemento("h4","Datos","footer"); // Crea un elemento con DOM 
-        this.crearElemento("p","","footer"); // Crea un elemento con DOM para los datos obtenidos con XML
+        this.crearElemento("p","","button"); // Crea un elemento con DOM para los datos obtenidos con XML
         this.cargarDatos();
+        this.crearElemento("h3",this.correcto,"button"); // Crea un elemento con DOM 
+        //Muestra el archivo xml recibido
         $("button").attr("disabled", "disabled");
     }
 }

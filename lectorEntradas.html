@@ -4,15 +4,17 @@
 <head>
     <!-- Datos que describen el documento -->
     <meta charset="UTF-8" />
-    <title>Equipos NBA</title>
+    <title>Lector</title>
 
-    <meta name="keywords" content="NBA, equipos NBA">
+    <meta name="keywords" content="NBA, entradas, lector entradas">
     <meta name="author" content="Javier García González">
-    <meta name="description" content="equipos de la NBA">
+    <meta name="description" content="Muestra el contenido de entradas de partidos">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-    <script src="equiposNBA.js"></script>
+
     <link rel="stylesheet" type="text/css" href="estilo.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="lectorEntradas.js"></script>
 </head>
 
 <body>
@@ -27,17 +29,15 @@
             <a href="estadisticas.html" accesskey="s" tabindex="6">Estadisticas</a>
             <a href="lectorEntradas.html" accesskey="n" tabindex="7">Lector de entradas</a>
             <a href="CentroDatosNBA.php" accesskey="c" tabindex="8">Centro de datos</a>
-        </nav>    
+        </nav>  
     </header>
 
     <!-- Datos con el contenidos que aparece en el navegador -->
     <main>
         <article>
-        <h1>Equipos de la NBA</h1>
+        <h1>Lector de entradas</h1>
         <section>
-            <h2>Archivo XML con los equipos</h2>
-            <button onclick=" equiposNBA.verEquipos()">Cargar los equipos</button>
-            </section>
+            <input type="file" value="Subir archivos" name="upload" onchange="lectorEntradas.seleccionarEntrada()" multiple="">
         </article>
     </main>
     <footer>Autor: Javier Garcia Gonzalez</footer>

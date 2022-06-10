@@ -1,0 +1,72 @@
+CREATE DATABASE  IF NOT EXISTS db_sew_extraordinaria COLLATE utf8_spanish_ci ;
+CREATE TABLE if not exists`Jugador` (
+	
+	`Nombre_jugador` varchar(255) NOT NULL,
+    	`JugadorId` varchar(255) NOT NULL ,
+	`Apellidos_jugador` varchar(255) NOT NULL,
+	`Edad_jugador` INT(255) NOT NULL,
+	`Peso_jugador` INT(255) NOT NULL,
+	`Altura_jugador` INT(255) NOT NULL,
+	
+	PRIMARY KEY (`JugadorId`)
+);
+
+CREATE TABLE if not exists `Entrenador` (
+	`Nombre_entrenador` varchar(255) NOT NULL,
+    	`EntrenadorId` varchar(255) NOT NULL ,
+	`Apellidos_entrenador` varchar(255) NOT NULL,
+	`Edad_entrenador` INT(255) NOT NULL,
+	`Numero_campeonatos_entrenador` INT(255) NOT NULL,
+
+	PRIMARY KEY (`EntrenadorID`)
+);
+
+CREATE TABLE if not exists `Equipo` (
+	`Nombre_equipo` varchar(255) NOT NULL,
+	`Ciudad_equipo` varchar(255) NOT NULL,
+	`Pabellon_equipo` varchar(255) NOT NULL,
+	PRIMARY KEY (`Nombre_equipo`)
+);
+
+CREATE TABLE if not exists `Juega` (
+	`Jugador` varchar(255) NOT NULL,
+	`Equipo_jugador` varchar(255) NOT NULL,
+	`Numero` VARCHAR(255) NOT NULL,
+	`Salario_jugador` FLOAT(255,3) NOT NULL,
+	`Posicion_jugador`varchar(255) NOT NULL,
+	`Temporada_jugador` YEAR NOT NULL,
+	PRIMARY KEY (`Numero`, `Equipo_jugador`, `Temporada_jugador`)
+);
+
+CREATE TABLE if not exists `Entrena` (
+	`Entrenador` varchar(255) NOT NULL,
+	`Equipo_entrenador` varchar(255) NOT NULL,
+	`Salario_entrenador` FLOAT(255,3) NOT NULL,
+	`Temporada_entrenador` YEAR NOT NULL,
+	PRIMARY KEY (`Entrenador`, `Equipo_entrenador`, `Temporada_entrenador`)
+);
+
+CREATE TABLE if not exists `Partido` (
+	`Marcador_local` INT(255) NOT NULL,
+	`Marcador_visitante` INT(255) NOT NULL,
+	`Fecha_partido` DATE NOT NULL,
+	`Temporada_partido` YEAR NOT NULL,
+	`PartidoId` varchar(255) NOT NULL,
+	`Equipo_local` varchar(255) NOT NULL,
+	`Equipo_visitante` varchar(255) NOT NULL,
+	PRIMARY KEY (`PartidoID`)
+);
+
+ALTER TABLE `Partido` ADD CONSTRAINT `Partido_fk0` FOREIGN KEY (`Equipo_local`) REFERENCES `Equipo`(`Nombre_equipo`);
+
+ALTER TABLE `Partido` ADD CONSTRAINT `Partido_fk1` FOREIGN KEY (`Equipo_visitante`) REFERENCES `Equipo`(`Nombre_equipo`);
+
+ALTER TABLE `Juega` ADD CONSTRAINT `Juega_fk0` FOREIGN KEY (`Jugador`) REFERENCES `Jugador`(`JugadorId`);
+
+ALTER TABLE `Juega` ADD CONSTRAINT `Juega_fk1` FOREIGN KEY (`Equipo_jugador`) REFERENCES `Equipo`(`Nombre_equipo`);
+
+ALTER TABLE `Entrena` ADD CONSTRAINT `Entrena_fk0` FOREIGN KEY (`Entrenador`) REFERENCES `Entrenador`(`EntrenadorId`);
+
+ALTER TABLE `Entrena` ADD CONSTRAINT `Entrena_fk1` FOREIGN KEY (`Equipo_entrenador`) REFERENCES `Equipo`(`Nombre_equipo`);
+
+

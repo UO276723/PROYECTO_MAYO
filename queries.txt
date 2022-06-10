@@ -1,0 +1,10 @@
+SELECT AVG(salario_jugador) AS salario_medio FROM juega WHERE equipo_jugador="Boston Celtics" AND temporada_jugador="2021"
+
+SELECT AVG(edad_jugador) AS edad_media FROM jugador j WHERE j.JugadorId IN (SELECT ju.Jugador FROM juega ju WHERE ju.Equipo_jugador="Boston Celtics" AND ju.Temporada_jugador="2021")
+
+
+SELECT COUNT(*) AS wins FROM partido WHERE Temporada_partido = "2021" AND ((Marcador_local>Marcador_visitante AND Equipo_local="Boston Celtics") OR (Marcador_visitante>Marcador_local AND Equipo_visitante="Boston Celtics"))
+
+SELECT COUNT(*) AS looses FROM partido WHERE Temporada_partido="2021" AND ((Marcador_local<Marcador_visitante AND Equipo_local="Boston Celtics") OR (Marcador_visitante<Marcador_local AND Equipo_visitante="Boston Celtics"))
+
+SELECT ent.Nombre_entrenador, ent.Apellidos_entrenador, ent.Edad_entrenador, ent.Numero_campeonatos_entrenador, e.Salario_entrenador FROM entrenador ent, entrena e WHERE ent.EntrenadorId=e.Entrenador AND e.Equipo_entrenador="Boston Celtics" AND e.Temporada_entrenador="2021"

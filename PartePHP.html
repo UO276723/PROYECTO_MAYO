@@ -4,14 +4,13 @@
 <head>
     <!-- Datos que describen el documento -->
     <meta charset="UTF-8" />
-    <title>Equipos NBA</title>
+    <title>NBA</title>
 
-    <meta name="keywords" content="NBA, equipos NBA">
+    <meta name="keywords" content="NBA, historia NBA">
     <meta name="author" content="Javier García González">
-    <meta name="description" content="equipos de la NBA">
+    <meta name="description" content="Historia de como surgió la NBA">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-    <script src="equiposNBA.js"></script>
+
     <link rel="stylesheet" type="text/css" href="estilo.css" />
 </head>
 
@@ -24,19 +23,28 @@
             <a href="equiposCampeones.html" accesskey="e" tabindex=3>Equipos Campeones</a>
             <a href="equiposNBA.html" accesskey="n" tabindex="4">Equipos de la NBA</a>
             <a href="localizacion.html" accesskey="l" tabindex="=5">Mi localizacion</a>
-            <a href="estadisticas.html" accesskey="s" tabindex="6">Estadisticas</a>
-            <a href="lectorEntradas.html" accesskey="n" tabindex="7">Lector de entradas</a>
-            <a href="CentroDatosNBA.php" accesskey="c" tabindex="8">Centro de datos</a>
         </nav>    
     </header>
 
     <!-- Datos con el contenidos que aparece en el navegador -->
     <main>
         <article>
-        <h1>Equipos de la NBA</h1>
+        <h1>Centro de datos de la NBA</h1>
         <section>
-            <h2>Archivo XML con los equipos</h2>
-            <button onclick=" equiposNBA.verEquipos()">Cargar los equipos</button>
+            <h2>Qué es la NBA</h2>
+            <form action="#" method="post" name="menuForm" enctype="multipart/form-data">
+
+                <label for="busquedaEquipo">Equipo: </label>
+                <input type="text" name="barraBusquedaEquipo" id="busquedaEquipo">
+                <label for="busquedaTemporada">Temporada: </label>
+                <input type="text" name="barraBusquedaTemporada" id="busquedaTemporada">
+                <input type="submit" value="Edad media del equipo" name="edadMedia">
+                <input type="submit" value="Salario total del equipo" name="salario">
+                <input type="submit" value="Record (victorias y derrotas) del equipo" name="record">
+                <input type="submit" value="entrenador a cargo del equipo" name="entrenador">
+            </form>
+
+            
             </section>
         </article>
     </main>

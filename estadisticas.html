@@ -4,15 +4,17 @@
 <head>
     <!-- Datos que describen el documento -->
     <meta charset="UTF-8" />
-    <title>Equipos NBA</title>
+    <title>Estadisticas</title>
 
-    <meta name="keywords" content="NBA, equipos NBA">
+    <meta name="keywords" content="NBA, estadisticas">
     <meta name="author" content="Javier García González">
-    <meta name="description" content="equipos de la NBA">
+    <meta name="description" content="Estadisticas de los jugadores">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-    <script src="equiposNBA.js"></script>
+
     <link rel="stylesheet" type="text/css" href="estilo.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="estadisticas.js"></script>
 </head>
 
 <body>
@@ -33,10 +35,11 @@
     <!-- Datos con el contenidos que aparece en el navegador -->
     <main>
         <article>
-        <h1>Equipos de la NBA</h1>
+        <h1>Estadisticas de los jugadores</h1>
         <section>
-            <h2>Archivo XML con los equipos</h2>
-            <button onclick=" equiposNBA.verEquipos()">Cargar los equipos</button>
+            <h2>Escoger a un jugador para ver sus estadísticas</h2>
+            <input type="text">
+            <input type="button" value="Ver estadisticas" onclick="generadorEstadisticas.verJSON();">
             </section>
         </article>
     </main>

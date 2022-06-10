@@ -80,7 +80,7 @@ xsi:schemaLocation="http://tempuri.org/equiposNBA equiposNBA.xsd">
 				<numeroCampeonatos>5</numeroCampeonatos>
 				<logo>multimedia/images/goldenStateWarriors.png</logo>
 			</equipo>
-			<equipo nombreEquipo="Loa Angeles Clippers">
+			<equipo nombreEquipo="Los Angeles Clippers">
 				<pabellon>Intuit Dome</pabellon>
 				<fechaCreacion>1970</fechaCreacion>
 				<ciudad>Los Angeles</ciudad>
@@ -90,7 +90,7 @@ xsi:schemaLocation="http://tempuri.org/equiposNBA equiposNBA.xsd">
 					<altitud>23.6697029</altitud>
 				</coordenadas>
 				<numeroCampeonatos>0</numeroCampeonatos>
-				<logo>multimedia/imeages/losAngelesClippers.png</logo>
+				<logo>multimedia/images/losAngelesClippers.png</logo>
 			</equipo>
 			<equipo nombreEquipo="Los Angeles Lakers">
 				<pabellon>Crypto.com Arena</pabellon>
@@ -102,7 +102,7 @@ xsi:schemaLocation="http://tempuri.org/equiposNBA equiposNBA.xsd">
 					<altitud>94.86832629</altitud>
 				</coordenadas>
 				<numeroCampeonatos>17</numeroCampeonatos>
-				<logo>multimedia/imeages/losAngelesLakers</logo>
+				<logo>multimedia/images/losAngelesLakers.png</logo>
 			</equipo>
 			<equipo nombreEquipo="Phoenix Suns">
 				<pabellon>Footprint Center</pabellon>
@@ -114,7 +114,7 @@ xsi:schemaLocation="http://tempuri.org/equiposNBA equiposNBA.xsd">
 					<altitud>349.42473621</altitud>
 				</coordenadas>
 				<numeroCampeonatos>0</numeroCampeonatos>
-				<logo>multimedia/imeages/phoenixSuns.png</logo>
+				<logo>multimedia/images/phoenixSuns.png</logo>
 			</equipo>
 			<equipo nombreEquipo="Sacramento Kings">
 				<pabellon>Golden 1 Center</pabellon>
@@ -126,7 +126,7 @@ xsi:schemaLocation="http://tempuri.org/equiposNBA equiposNBA.xsd">
 					<altitud>25.18164744</altitud>
 				</coordenadas>
 				<numeroCampeonatos>1</numeroCampeonatos>
-				<logo>multimedia/imeages/sacramentoKings.png</logo>
+				<logo>multimedia/images/sacramentoKings.png</logo>
 			</equipo>
 		</division>
 		<division nombreDivision="Suroeste">
@@ -140,7 +140,7 @@ xsi:schemaLocation="http://tempuri.org/equiposNBA equiposNBA.xsd">
 					<altitud>151.41780756</altitud>
 				</coordenadas>
 				<numeroCampeonatos>1</numeroCampeonatos>
-				<logo>multimedia/imeages/dallasMavericks.png</logo>
+				<logo>multimedia/images/dallasMavericks.png</logo>
 			</equipo>
 			<equipo nombreEquipo="Houston Rockets">
 				<pabellon>Toyota Center</pabellon>
@@ -152,7 +152,7 @@ xsi:schemaLocation="http://tempuri.org/equiposNBA equiposNBA.xsd">
 					<altitud>36.96612249</altitud>
 				</coordenadas>
 				<numeroCampeonatos>2</numeroCampeonatos>
-				<logo>multimedia/imeages/houstonRockets.png</logo>
+				<logo>multimedia/images/houstonRockets.png</logo>
 			</equipo>
 			<equipo nombreEquipo="Memphis Grizzlies">
 				<pabellon>FedEx Forum</pabellon>
@@ -164,7 +164,7 @@ xsi:schemaLocation="http://tempuri.org/equiposNBA equiposNBA.xsd">
 					<altitud>99.92656554</altitud>
 				</coordenadas>
 				<numeroCampeonatos>0</numeroCampeonatos>
-				<logo>multimedia/imeages/memphisGrizzlies.png</logo>
+				<logo>multimedia/images/memphisGrizzlies.png</logo>
 			</equipo>
 			<equipo nombreEquipo="New Orleans Pelicans">
 				<pabellon>New Orleans Arena</pabellon>
@@ -176,7 +176,7 @@ xsi:schemaLocation="http://tempuri.org/equiposNBA equiposNBA.xsd">
 					<altitud>28.49351686</altitud>
 				</coordenadas>
 				<numeroCampeonatos>0</numeroCampeonatos>
-				<logo>multimedia/imeages/newOrleansPelicans.png</logo>
+				<logo>multimedia/images/newOrleansPelicans.png</logo>
 			</equipo>
 			<equipo nombreEquipo="San Antonio Spurs">
 				<pabellon>ATT Center</pabellon>
@@ -188,7 +188,7 @@ xsi:schemaLocation="http://tempuri.org/equiposNBA equiposNBA.xsd">
 					<altitud>214.45694154</altitud>
 				</coordenadas>
 				<numeroCampeonatos>5</numeroCampeonatos>
-				<logo>multimedia/imeages/sanAntonioSpurs.png</logo>
+				<logo>multimedia/images/sanAntonioSpurs.png</logo>
 			</equipo>
 		</division>
 	</conferencia>
@@ -205,7 +205,7 @@ xsi:schemaLocation="http://tempuri.org/equiposNBA equiposNBA.xsd">
 					<altitud>30.49624609</altitud>
 				</coordenadas>
 				<numeroCampeonatos>17</numeroCampeonatos>
-				<logo>multimedia/imeages/bostonCeltics.png</logo>
+				<logo>multimedia/images/bostonCeltics.png</logo>
 			</equipo>
 			<equipo nombreEquipo="Brooklyn Nets">
 				<pabellon>Barclays Center</pabellon>
@@ -217,7 +217,7 @@ xsi:schemaLocation="http://tempuri.org/equiposNBA equiposNBA.xsd">
 					<altitud>35.93527704</altitud>
 				</coordenadas>
 				<numeroCampeonatos>0</numeroCampeonatos>
-				<logo>multimedia/imeages/brooklynNets.png</logo>
+				<logo>multimedia/images/brooklynNets.png</logo>
 			</equipo>
 			<equipo nombreEquipo="New York Knicks">
 				<pabellon>Madison Square Garden</pabellon>
@@ -229,7 +229,7 @@ xsi:schemaLocation="http://tempuri.org/equiposNBA equiposNBA.xsd">
 					<altitud>32.54146136</altitud>
 				</coordenadas>
 				<numeroCampeonatos>2</numeroCampeonatos>
-				<logo>multimedia/imeages/newYorkKnicks.png</logo>
+				<logo>multimedia/images/newYorkKnicks.png</logo>
 			</equipo>
 			<equipo nombreEquipo="Philadelphia 76ers">
 				<pabellon>Wells Fargo Center</pabellon>
@@ -241,7 +241,7 @@ xsi:schemaLocation="http://tempuri.org/equiposNBA equiposNBA.xsd">
 					<altitud>27.44785267</altitud>
 				</coordenadas>
 				<numeroCampeonatos>3</numeroCampeonatos>
-				<logo>multimedia/imeages/philadelphia76ers.png</logo>
+				<logo>multimedia/images/philadelphia76ers.png</logo>
 			</equipo>
 			<equipo nombreEquipo="Toronto Raptors">
 				<pabellon>Air Canada Centre</pabellon>
@@ -253,7 +253,7 @@ xsi:schemaLocation="http://tempuri.org/equiposNBA equiposNBA.xsd">
 					<altitud>88.76262041</altitud>
 				</coordenadas>
 				<numeroCampeonatos>1</numeroCampeonatos>
-				<logo>multimedia/imeages/torontoRaptors.png</logo>
+				<logo>multimedia/images/torontoRaptors.png</logo>
 			</equipo>
 		</division>
 		<division nombreDivision="Central">
@@ -267,7 +267,7 @@ xsi:schemaLocation="http://tempuri.org/equiposNBA equiposNBA.xsd">
 					<altitud>203.63595354</altitud>
 				</coordenadas>
 				<numeroCampeonatos>6</numeroCampeonatos>
-				<logo>multimedia/imeages/chicagoBulls.png</logo>
+				<logo>multimedia/images/chicagoBulls.png</logo>
 			</equipo>
 			<equipo nombreEquipo="Cleveland Cavaliers">
 				<pabellon>Rocket Mortgage FieldHouse</pabellon>
@@ -279,7 +279,7 @@ xsi:schemaLocation="http://tempuri.org/equiposNBA equiposNBA.xsd">
 					<altitud>226.79256932</altitud>
 				</coordenadas>
 				<numeroCampeonatos>1</numeroCampeonatos>
-				<logo>multimedia/imeages/clevelandCavaliers.png</logo>
+				<logo>multimedia/images/clevelandCavaliers.png</logo>
 			</equipo>
 			<equipo nombreEquipo="Detroit Pistons">
 				<pabellon>Little Caesars Arena</pabellon>
@@ -291,7 +291,7 @@ xsi:schemaLocation="http://tempuri.org/equiposNBA equiposNBA.xsd">
 					<altitud>202.59723646</altitud>
 				</coordenadas>
 				<numeroCampeonatos>3</numeroCampeonatos>
-				<logo>multimedia/imeages/detroitPistons.png</logo>
+				<logo>multimedia/images/detroitPistons.png</logo>
 			</equipo>
 			<equipo nombreEquipo="Indiana Pacers">
 				<pabellon>Gainbridge FieldHouse</pabellon>
@@ -303,7 +303,7 @@ xsi:schemaLocation="http://tempuri.org/equiposNBA equiposNBA.xsd">
 					<altitud>237.17773244</altitud>
 				</coordenadas>
 				<numeroCampeonatos>0</numeroCampeonatos>
-				<logo>multimedia/imeages/indianaPacers.png</logo>
+				<logo>multimedia/images/indianaPacers.png</logo>
 			</equipo>
 			<equipo nombreEquipo="Milwaukee Bucks">
 				<pabellon>Fiserv Forum</pabellon>
@@ -315,7 +315,7 @@ xsi:schemaLocation="http://tempuri.org/equiposNBA equiposNBA.xsd">
 					<altitud>200.486222</altitud>
 				</coordenadas>
 				<numeroCampeonatos>2</numeroCampeonatos>
-				<logo>multimedia/imeages/milwaukeeBucks.png</logo>
+				<logo>multimedia/images/milwaukeeBucks.png</logo>
 			</equipo>
 		</division>
 		<division nombreDivision="Sureste">
@@ -329,7 +329,7 @@ xsi:schemaLocation="http://tempuri.org/equiposNBA equiposNBA.xsd">
 					<altitud>341.23823217</altitud>
 				</coordenadas>
 				<numeroCampeonatos>1</numeroCampeonatos>
-				<logo>multimedia/imeages/atlantaHaws.png</logo>
+				<logo>multimedia/images/atlantaHaws.png</logo>
 			</equipo>
 			<equipo nombreEquipo="Charlotte Hornets">
 				<pabellon>Spectrum Center</pabellon>
@@ -341,7 +341,7 @@ xsi:schemaLocation="http://tempuri.org/equiposNBA equiposNBA.xsd">
 					<altitud>245.37450795</altitud>
 				</coordenadas>
 				<numeroCampeonatos>0</numeroCampeonatos>
-				<logo>multimedia/imeages/charlotteHornets.png</logo>
+				<logo>multimedia/images/charlotteHornets.png</logo>
 			</equipo>
 			<equipo nombreEquipo="Miami Heat">
 				<pabellon>FTX Arena</pabellon>
@@ -353,7 +353,7 @@ xsi:schemaLocation="http://tempuri.org/equiposNBA equiposNBA.xsd">
 					<altitud>14.01635183</altitud>
 				</coordenadas>
 				<numeroCampeonatos>3</numeroCampeonatos>
-				<logo>multimedia/imeages/miamiHeat.png</logo>
+				<logo>multimedia/images/miamiHeat.png</logo>
 			</equipo>
 			<equipo nombreEquipo="Orlando Magic">
 				<pabellon>Amway Center</pabellon>
@@ -365,7 +365,7 @@ xsi:schemaLocation="http://tempuri.org/equiposNBA equiposNBA.xsd">
 					<altitud>56.83628464</altitud>
 				</coordenadas>
 				<numeroCampeonatos>0</numeroCampeonatos>
-				<logo>multimedia/imeages/orlandoMagic.png</logo>
+				<logo>multimedia/images/orlandoMagic.png</logo>
 			</equipo>
 			<equipo nombreEquipo="Washington Wizards">
 				<pabellon>Capital One Arena</pabellon>
@@ -377,7 +377,7 @@ xsi:schemaLocation="http://tempuri.org/equiposNBA equiposNBA.xsd">
 					<altitud>14.02890809</altitud>
 				</coordenadas>
 				<numeroCampeonatos>1</numeroCampeonatos>
-				<logo>multimedia/imeages/washingtonWizars.png</logo>
+				<logo>multimedia/images/washingtonWizards.png</logo>
 			</equipo>
 		</division>
 	</conferencia>

@@ -14,7 +14,7 @@ body {
     background:#00438c;
     color:whitesmoke;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     padding: 1em;
   }
@@ -30,7 +30,8 @@ body {
   /*Especificidad: 001*/
   label {
     padding: 1em;
-    font-size: 1.5em;
+    text-align: left;
+    font-size: 1em;
   }
 
   
@@ -66,3 +67,42 @@ h1 {
     text-align: center;
     padding: 1em;
   }
+
+
+/*Selector Specificity: (0, 1, 1)*/
+input[type="submit"]{
+  grid-column: span 2;
+  background-color: #00438c;
+  color: #fff;
+  visibility: visible;
+}
+
+
+/*Selector Specificity: (0, 0, 1)*/
+input {
+  grid-column: span 2;
+  background-color: #b9c1c9;
+  color: rgb(0, 0, 0);
+  visibility: visible;
+}
+
+
+
+/*Selector Specificity: (0, 0, 1)*/
+form{
+
+
+  display: grid;
+
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  column-gap: 2%;
+  row-gap: 3%;
+
+
+}
+
+/*Selector Specificity: (0, 0, 1)*/
+img{
+  width: auto;
+  height: 12em;
+}
