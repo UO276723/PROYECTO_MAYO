@@ -65,7 +65,6 @@ class EquiposNBA {
     verEquipos(){
         this.crearElemento("section","","button"); // Crea un elemento con DOM para los datos obtenidos con XML
         this.cargarDatos();
-        this.crearElemento("h3",this.correcto,"button"); // Crea un elemento con DOM 
         //Muestra el archivo xml recibido
         $("button").attr("disabled", "disabled");
     }
