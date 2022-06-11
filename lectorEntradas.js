@@ -18,10 +18,8 @@ class LectorEntradas {
 
         var entrada;
 
-        $('input').before("<h2>Visualizacion de las entradas</h2>");
         for (var i = 0; i < this.numberFiles; i++){
             entrada =this.fileArray[i];
-
             this.leerEntrada(entrada);
         }
 
@@ -32,21 +30,20 @@ class LectorEntradas {
         var lector;
         var regexTxt = "text/plain";
 
-        $('input').before("<section>" + string);
         if (entrada.type === regexTxt){
-            $('h3:last').after("<p name=\"" + entrada.name + "\"></p></section>");
+
 
             lector = new FileReader();
 
             lector.onload = function(evento){
-                document.querySelector("p[name=\"" + entrada.name + "\"").innerText = lector.result;
+                document.querySelector("pre").innerText += lector.result + "\n";
             }
 
             lector.readAsText(entrada);
         }
         else {
-            string = "<p>Imposible de leer el arvhivo, formato no permitido.</p></section>";
-            $('h3:last').before(string);
+            string = "Imposible de leer el arvhivo, formato no permitido.\n";
+            document.querySelector("pre").innerText += string;
         }
     }
 }

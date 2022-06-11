@@ -14,7 +14,7 @@ class GeneradorEstadisticas {
             success: function(datos){
                 if (datos.data.length == 0){
                     stringDatos = "No existe ningún jugador con este nombre";
-                    $("p").html(stringDatos);
+                    $("section:last").html(stringDatos);
                     return;
                 }
                 this.datos = datos.data[0];
@@ -46,12 +46,12 @@ class GeneradorEstadisticas {
                         stringDatos += "<li>Tapones: " + this.datos.blk + "</li>";
                         stringDatos += "<li>Perdidas: " + this.datos.turnover + "</li>";
                         stringDatos += "<li>Faltas: " + this.datos.pf + "</li></ul>";
-                        $("p").html(stringDatos);
+                        $("section:last").html(stringDatos);
                     },
         
                     error: function(){
                         stringDatos = "ha habido un error en el ajax 2";
-                        $("p").html(stringDatos);
+                        $("section:last").html(stringDatos);
                     }
                 });
                
@@ -59,7 +59,7 @@ class GeneradorEstadisticas {
 
             error: function(){
                 stringDatos = "ha habido un error en el ajax 1";
-                $("p").html(stringDatos);
+                $("section:last").html(stringDatos);
             }
             
         });
@@ -72,8 +72,8 @@ class GeneradorEstadisticas {
     }
 
     verJSON(){
-        $("p").remove();
-        this.crearElemento("p","","input:button"); // Crea un elemento con DOM para los datos obtenidos con JSON
+        $("section").remove();
+        this.crearElemento("section","","input:button"); // Crea un elemento con DOM para los datos obtenidos con JSON
         this.cargarDatos();
 }
 }
