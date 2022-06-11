@@ -38,7 +38,8 @@
         <h1>Lector de entradas</h1>
         <section>
             <h2>Introduce aqui la entrada:</h2>
-            <input type="file" name="upload" onchange="lectorEntradas.seleccionarEntrada()" multiple="">
+            <label for="selectorEntrada">Selecciona una entrada:</label>
+            <input type="file" name="upload" id="selectorEntrada" onchange="lectorEntradas.seleccionarEntrada()" multiple="">
             <pre></pre>
             </section>
         </article>
